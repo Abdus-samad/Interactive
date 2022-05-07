@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interative Rating component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="rating">
+          <img src="./icon-star.svg" class="star" alt="star" />
+          <h2>How did we do?</h2>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+
+          <form>
+            <!-- Pagination -->
+            <div class="pagination">
+              <div class="form_radio-group">
+                <input
+                  type="radio"
+                  id="rate-1"
+                  class="form_radio-input"
+                  name="rate-value"
+                  value="1"
+                />
+                <label for="rate-1" class="form_ratdio-label">
+                  <span class="form_radio-button">
+                    <div>1</div>
+                  </span>
+                </label>
+              </div>
+              <div class="form_radio-group">
+                <input
+                  type="radio"
+                  id="rate-2"
+                  class="form_radio-input"
+                  name="rate-value"
+                  value="2"
+                />
+                <label for="rate-2" class="form_ratdio-label">
+                  <span class="form_radio-button">
+                    <div>2</div>
+                  </span>
+                </label>
+              </div>
+
+              <div class="form_radio-group">
+                <input
+                  type="radio"
+                  id="rate-3"
+                  class="form_radio-input"
+                  name="rate-value"
+                  value="3"
+                />
+                <label for="rate-3" class="form_ratdio-label">
+                  <span class="form_radio-button">
+                    <div>3</div>
+                  </span>
+                </label>
+              </div>
+
+              <div class="form_radio-group">
+                <input
+                  type="radio"
+                  id="rate-4"
+                  class="form_radio-input"
+                  name="rate-value"
+                  value="4"
+                />
+                <label for="rate-4" class="form_ratdio-label">
+                  <span class="form_radio-button">
+                    <div>4</div>
+                  </span>
+                </label>
+              </div>
+
+              <div class="form_radio-group">
+                <input
+                  type="radio"
+                  id="rate-5"
+                  class="form_radio-input"
+                  name="rate-value"
+                  value="5"
+                />
+                <label for="rate-5" class="form_ratdio-label">
+                  <span class="form_radio-button">
+                    <div>5</div>
+                  </span>
+                </label>
+              </div>
+            </div>
+            <!-- Button -->
+            <div class="button">
+              <button class="form_button" type="submit">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
